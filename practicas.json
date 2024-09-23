@@ -1,0 +1,28 @@
+// requests y response 
+
+//GET: http://facebook.com/users?id=2 
+
+[ {
+    "status": 200,
+    "users": {
+            "id": 2,
+            "nombre": "Rocio",
+            "apellido": "Arruabarrena",
+            "email": "rocioa@gmail.com",
+            
+        },
+    }
+]
+
+//PUT: http://facebook.com/v1/user?id=2
+[
+{
+    "status": 201,
+    "users": {
+        "id": 2,
+       "nombre": "Rocio",
+        "apellido": "Arruabarrena",
+        "email": "rocioa07@gmail.com"
+    }
+}
+]
